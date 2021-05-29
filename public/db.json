@@ -1,0 +1,215 @@
+{
+    "elem":[
+        {
+            "id": "MSI-GTX-1650-D6GX",
+            "path": "videocard",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st4/fit/500/500/57a696c54ba73600df7c9f5b006f47cd/6895c05e6593667ba3120074be31b365104490d8d2997a6e814a47a3629d0267.jpg",
+                "https://c.dns-shop.ru/thumb/st1/fit/500/500/e64d441b054de349fe7043c45eb770c2/e663523af82a2a7aceda6e6cf12999011f024554f73969d3f76a51b5b85f24ff.jpg",
+                "https://c.dns-shop.ru/thumb/st1/fit/500/500/feb6d50b19fcdd80477b47abe0b02328/3f2ed441b732ccf15661c9be1932e4675e2c0837c1a2135411aafd02271526ff.jpg"
+            ],
+            "name": "Видеокарта MSI GeForce GTX 1650 D6 GAMING X",
+            "price": 23000,
+            "category": 0,
+            "popular": 4.0
+        },
+        {
+            "id": "i5-10500-BOX",
+            "path": "processor",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st4/fit/500/500/8a24bc60ae6d69b120d238da94b850c7/aeb8cc94e6f6770ce048f1b12649a340f65d9ad76c612b2aa9b0998d7413299d.jpg"
+            ],
+            "name": "Процессор Intel Core i5-10500 BOX",
+            "price": 16000,
+            "category": 1,
+            "popular": 4.5
+        },
+        {
+            "id": "ASRock-z490-Extreme4",
+            "path": "materinskaya-plata",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st4/fit/500/500/d7872c7254489791555b8e5ebaa0c666/c38ad5f5d7c795c6c95b46e80f50e336ef9ed93fc6e34999c0883be8ed568ccc.png"
+            ],
+            "name": "Материнская плата ASRock Z490 Extreme4",
+            "price": 23000,
+            "category": 2,
+            "popular": 3.0
+        },
+        {
+            "id": "Palit-RTX-3090-GAMEROCK",
+            "path": "videocard",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st4/fit/500/500/c953049929cd3aaa54e04e26b776a6cc/8416b25b4d7ffcc7b985eaf7d66d456d1c5e8166234a96170d49b40415f35af7.png"
+            ],
+            "name": "Видеокарта Palit GeForce RTX 3090 GameRock ",
+            "price": 285999,
+            "category": 0,
+            "popular": 2.5
+        },
+        {
+            "id": "i5-10600KF-BOX",
+            "path": "processor",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st1/fit/500/500/ce5542e61902d29894a0b6a5c7824bac/2916415ba132690248f3ce825118ddd804079b70adc8d88165f0e76c6624d420.jpg"
+            ],
+            "name": "Процессор Intel Core i5-10600KF BOX",
+            "price": 18299,
+            "category": 1,
+            "popular": 4.8
+        },
+        {
+            "id": "r5-3600XT-BOX",
+            "path": "processor",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st1/fit/500/500/037c9a623c7e8f6e85c9e45bc211c195/52659969a1761fb33daf8a6574dfc01d9fa7b7f095ad4ef777d62a25f3605023.jpg"
+            ],
+            "name": "Процессор AMD Ryzen 5 3600XT BOX",
+            "price": 21000,
+            "category": 1,
+            "popular": 4.4
+        },
+        {
+            "id": "ASRock-A320M-DVS-R4.0",
+            "path": "materinskaya-plata",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st1/fit/500/500/f14eb34ec2adad094f7ec89e26d0acb8/ee726604f2aba57d1902e154e3b11d59d300834ba9f3d0aa113c21dc161e112c.jpg"
+            ],
+            "name": "Материнская плата ASRock A320M-DVS R4.0",
+            "price": 3900,
+            "category": 2,
+            "popular": 4.0
+        },
+        {
+            "id": "OZU-Kingston-HyperX-Fury-Black-4GB",
+            "path": "OZU",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st1/fit/500/500/c9f0b9769dee1367fb2270e8a1159c47/03ab295030d579276c2d1190214089212d46fda5909ec4c0da951404542d00d6.jpg"
+            ],
+            "name": "Оперативная память Kingston HyperX FURY Black - 4 ГБ",
+            "price": 2700,
+            "category": 3,
+            "popular": 5.0
+        },
+        {
+            "id": "OZU-Goodram-Iridium-8GB",
+            "path": "OZU",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st1/fit/500/500/766e265804ef214403415f0ce809348d/073c84b5b0525e53ed5e4deb692b8c85f449e45cf2ae4593879d2ec340d3d28a.jpg"
+            ],
+            "name": "Оперативная память Goodram Iridium - 8 ГБ",
+            "price": 3600,
+            "category": 3,
+            "popular": 4.0
+        },
+        {
+            "id": "Thermaltake-Smart-RGB-500W",
+            "path": "Block-Pitanya",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st4/fit/500/500/4e6125ed952f03c7d6a81ddfb0b0d3a0/99d9a13a3ca9c7f1a373bcca19de6f5d3f3b01366d6596f82c894aa9c93272b7.jpg"
+            ],
+            "name": "Блок питания Thermaltake Smart RGB 500W",
+            "price": 4100,
+            "category": 4,
+            "popular": 4.3
+        },
+        {
+            "id": "Chieftec-iARENA-Serie-650W",
+            "path": "Block-Pitanya",
+            "images": [
+                ""
+            ],
+            "name": "Блок питания Chieftec iARENA Series 650W",
+            "price": 4100,
+            "category": 4,
+            "popular": 4.3
+        },
+        {
+            "id": "MSI-MAG-VAMPIRIC-010M-black",
+            "path": "Korpus",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st1/fit/500/500/ad3b861f8ab83efdef447653626fade7/ec4407b22482c95e59a05fb2342c1edd03219cf988dc8f452dff19516388d827.png"
+            ],
+            "name": "Корпус MSI MAG VAMPIRIC 010M черный",
+            "price": 4700,
+            "category": 5,
+            "popular": 4.5
+        },
+        {
+            "id": "MSI-MAG-VAMPIRIC-010M-white",
+            "path": "Korpus",
+            "images": [
+                ""
+            ],
+            "name": "Корпус MSI MAG VAMPIRIC 010M белый",
+            "price": 4700,
+            "category": 5,
+            "popular": 4.5
+        },
+        {
+            "id": "MSI-MAG-VAMPIRIC-010M-red",
+            "path": "Korpus",
+            "images": [
+                ""
+            ],
+            "name": "Корпус MSI MAG VAMPIRIC 010M Красный",
+            "price": 4700,
+            "category": 5,
+            "popular": 4.5
+        },
+        {
+            "id": "AeroCool-Python",
+            "path": "Korpus",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st4/fit/500/500/2f2f2ba07395b914f0143976d69d30cf/b775e37d0e44ce80b7ac75ae46aee9aa8309651775ccb235bd0823daa744db05.jpg"
+            ],
+            "name": "Корпус AeroCool Python",
+            "price": 4750,
+            "category": 5,
+            "popular": 4.5
+        },
+        {
+            "id": "SSD-GoodramIrdmPro-960GB",
+            "path": "Nakopitel",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st4/fit/500/500/23c7ebb1dfec1d5d1b9be91db83f644c/7d74539dc5ff73331ab7a0882644d0655d9d30fea3c8cbb0fbdf238e7ae00922.jpg"
+            ],
+            "name": "960 ГБ SSD-накопитель Goodram Irdm Pro",
+            "price": 14000,
+            "category": 6,
+            "popular": 5
+        },
+        {
+            "id": "SSD-HPS750-1024GB",
+            "path": "Nakopitel",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st1/fit/500/500/ca831e59fb60d56a6d813db02e175da3/3f9eaa29b268113083e33ca1107cbcaccd4480751e79ee957360d22e9b6d3575.jpg"
+            ],
+            "name": "1024 ГБ SSD-накопитель HP S750",
+            "price": 14780,
+            "category": 6,
+            "popular": 4.6
+        },
+        {
+            "id": "WD-Blue-1TB",
+            "path": "Nakopitel",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st1/fit/500/500/7ae771679e9a86d197c6fc477ef8cb0d/b2c21521415d490bd85587537f05a767e7f7e1e7fc9357c5b3169f1cd1be43d7.jpg"
+            ],
+            "name": "1 ТБ Жесткий диск WD Blue",
+            "price": 3080,
+            "category": 6,
+            "popular": 4.6
+        },
+        {
+            "id": "Seagate-BarraCuda-2TB",
+            "path": "Nakopitel",
+            "images": [
+                "https://c.dns-shop.ru/thumb/st4/fit/500/500/202acbaec1761ffc8f4f1b33756a4d22/66aafe3314bb2eb0c47a9ed272c6e2ca5b302b7fb6d8525170b375da3fc0a48b.jpg"
+            ],
+            "name": "2 ТБ Жесткий диск Seagate BarraCuda",
+            "price": 4980,
+            "category": 6,
+            "popular": 4.3
+        }
+    ]
+}
