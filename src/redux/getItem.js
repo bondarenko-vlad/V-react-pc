@@ -1,4 +1,4 @@
-import axios from "axios"
+import api from '../api/api'
 
 const initialState = {
     windowItems: [{}],
@@ -33,7 +33,7 @@ export const getBoolean= ()=>({
 })
 
 export const getItem = (path,id) => dispatch =>{
-    axios.get(`http://localhost:3002/elem?path=${path}&id=${id}`).then(({data})=>{
+    api.get(`elem?path=${path}&id=${id}`).then(({data})=>{
         dispatch(getItemAC(data))
     })
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {Route} from 'react-router-dom'
 
 import Header from './components/Header'
@@ -7,6 +7,7 @@ import Cart from './pages/Cart'
 import PageItemWithRouter from './pages/PageItem'
 import CategoriesContainer from './components/CategoryAndSort/CategoriesContainer'
 import ResultItemsSearch from './pages/ResultItems'
+import { ReactReduxContext } from 'react-redux'
 
 
 function App() {

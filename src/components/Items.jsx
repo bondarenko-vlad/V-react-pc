@@ -3,10 +3,12 @@ import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { NavLink } from "react-router-dom";
 import { fetchElem } from "../redux/elem";
+import { addToCart, getCart} from '../redux/cart'
 
 function Items() {
   const dispatch = useDispatch();
   const element = useSelector(({ elements }) => elements.element);
+  const cart = useSelector(({cart})=>cart)
   const { category, sort } = useSelector(({ filters }) => filters);
   const [fetching, setFetching] = useState(true);
   
@@ -15,7 +17,7 @@ function Items() {
       dispatch(fetchElem(category, sort));
       setFetching(false)  
     }
-  }, [category, sort, fetching]);
+  }, [category, sort]);
 
   const scrollHandler = (e) => {
     if (
@@ -31,7 +33,10 @@ function Items() {
       document.removeEventListener("scroll", scrollHandler);
     };
   }, []);
-  
+  useEffect(()=>{
+    dispatch(getCart())
+  },[])
+
   return (
     <>
       {element.map((obj, index) => (
@@ -47,7 +52,9 @@ function Items() {
             </NavLink>
             <div className="stopCLick">
               <p className="price">{obj.price} ₽</p>
-              <p className="buy">Купить</p>
+              <button className="buy" onClick={(e)=>{
+                dispatch(addToCart(obj))
+              }}>{cart.find((cartItem)=>cartItem.id==obj.id) ? 'acquired' : 'Buy'}</button>
             </div>
           </div>
         </div>

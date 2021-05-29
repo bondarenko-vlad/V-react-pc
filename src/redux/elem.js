@@ -1,4 +1,4 @@
-import axios from "axios"
+import api from "../api/api"
 
 const initialState = {
     element: [],
@@ -33,8 +33,10 @@ export const setElem = (elem) =>({
     payload: elem,
 })
 
+
+
 export const fetchElem = (category,sort,page) => (dispatch) =>{
-    axios.get(`http://localhost:3002/elem?_page=${page}&_limit=5
+    api.get(`elem?_page=${page}&_limit=5
     ${category !== null ? `&category=${category}` : ''}&_sort=${sort.type}&_order=${sort.order}`)
     .then(({ data }) => {
         dispatch(setElem(data));
